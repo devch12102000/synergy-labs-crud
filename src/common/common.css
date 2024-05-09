@@ -1,0 +1,93 @@
+.table{
+    .ant-table{
+        box-shadow: 0px 0px 10px rebeccapurple;
+    }
+    table{
+        th{
+            background-color: rebeccapurple !important;
+            color: #fff !important;
+        }
+    }
+    .ant-pagination-total-text { 
+        text-align: center;
+        list-style: none;
+        padding: 0px 15px;
+        background-color: #fff;
+        border: 1px solid #d9d9d9;
+        border-radius: 2px;
+        outline: 0;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+      }
+    }
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.btnGroup{
+    text-align: right;
+    button{
+        background-color: rebeccapurple;
+        margin-left: 10px;
+    }
+}
+
+    .table-elements-wrapper{
+         /* margin: 32px 0; */
+        .ant-table-wrapper{
+            .ant-table{
+                .ant-table-container{
+                    .ant-table-content{
+                        table{
+                            .ant-table-tbody{
+                                .ant-table-row{
+                                    .ant-table-cell{
+                                        .action{
+                                            position: relative;
+                                            .icon{
+                                                cursor: pointer;
+                                            }
+                                            .popover-menu{
+                                                position: absolute;
+                                                background: #fff;
+                                                box-shadow: 0px 0px 5px 1px #ccc;
+                                                border-radius: 4px;
+                                                display: none;
+                                                z-index: 99;
+                                                &.show{
+                                                    display: block;
+                                                }
+                                                .popover-item{
+                                                    padding: 4px 5px;
+                                                    font-size: 12px;
+                                                    cursor: pointer;
+                                                    display: flex;
+                                                    &:nth-child(1){
+                                                        border-bottom: 1px solid #ccc;
+                                                    }
+                                                    .icons{
+                                                        font-size: 16px;
+                                                        margin-right: 4px;
+                                                    }
+                                                    .EditIcon{
+                                                        color: #276ffa;
+                                                    }
+                                                    .deleteIcon{
+                                                        color: #ff808b;
+                                                    }
+                                                    .viewIcon{
+                                                        color: #276ffa;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
